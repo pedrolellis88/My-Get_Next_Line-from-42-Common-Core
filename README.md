@@ -102,9 +102,9 @@ O projeto **get_next_line** possui uma parte bônus opcional, que só deve ser a
 
 Implementar uma versão de **get_next_line** capaz de lidar com múltiplos **file descriptors** simultaneamente
 
-O comportamento deve ser correto mesmo quando chamadas intercaladas são feitas com diferentes fds
+* O comportamento deve ser correto mesmo quando chamadas intercaladas são feitas com diferentes fds
 
-Cada file descriptor deve manter seu próprio estado interno de leitura
+* Cada file descriptor deve manter seu próprio estado interno de leitura
 
 #### Restrições
 
