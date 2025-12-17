@@ -56,27 +56,27 @@ char *get_next_line(int fd);
 
 As seguintes funções auxiliares são reimplementadas e utilizadas internamente:
 
-* `ft_strlen(const char *str)` — retorna o tamanho da string
+`ft_strlen(const char *str)` — retorna o tamanho da string
 
-* `ft_strdup(const char *s)` — duplica uma string
+`ft_strdup(const char *s)` — duplica uma string
 
-* `ft_substr(char const *s, unsigned int start, size_t len)` — cria uma substring
+`ft_substr(char const *s, unsigned int start, size_t len)` — cria uma substring
 
-* `ft_strjoin(char const *s1, char const *s2)` — concatena duas strings
+`ft_strjoin(char const *s1, char const *s2)` — concatena duas strings
 
-* `ft_strchr(const char *s, int c)` — busca um caractere em uma string
+`ft_strchr(const char *s, int c)` — busca um caractere em uma string
 
 #### Lógica Interna
 
 A implementação utiliza funções auxiliares internas para gerenciar estado e memória:
 
-* `memorize_line` — adiciona o buffer lido à string acumulada
+`memorize_line` — adiciona o buffer lido à string acumulada
 
-* `line_with_nl` — extrai uma linha até o \n e armazena os dados restantes
+`line_with_nl` — extrai uma linha até o \n e armazena os dados restantes
 
-* `make_line` — trata os valores de retorno do read e constrói a saída final
+`make_line` — trata os valores de retorno do read e constrói a saída final
 
-* `safe_free_dp` — libera ponteiros alocados dinamicamente de forma segura
+`safe_free_dp` — libera ponteiros alocados dinamicamente de forma segura
 
 #### Tratamento de Erros e Proteções
 
