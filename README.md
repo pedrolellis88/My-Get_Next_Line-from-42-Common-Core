@@ -136,11 +136,11 @@ Assim como na parte obrigatória, o valor de `BUFFER_SIZE` pode ser alterado par
 
 42 School — enunciado do Get Next Line v13
 
-Documentação POSIX:
+#### Documentação POSIX:
 
 * read(2)
 
-Páginas de manual:
+#### Páginas de manual:
 
 * man read
 
@@ -290,11 +290,11 @@ As in the mandatory part, the `BUFFER_SIZE` value can be changed to test differe
 
 42 School — Get Next Line v13 subject
 
-POSIX documentation:
+#### POSIX documentation:
 
 * read(2)
 
-Manual pages:
+#### Manual pages:
 
 * man read
 
