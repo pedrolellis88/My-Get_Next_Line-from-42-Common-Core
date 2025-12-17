@@ -82,9 +82,9 @@ A implementação utiliza funções auxiliares internas para gerenciar estado e 
 
 A função retorna NULL se:
 
-* fd < 0
+* `fd < 0`
 
-* BUFFER_SIZE <= 0
+* `BUFFER_SIZE <= 0`
 
 * Ocorrer erro na chamada de read
 
