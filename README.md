@@ -23,10 +23,6 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=32 get_next_line.c get_next_line_utils.c
 
 Você pode alterar o valor de `BUFFER_SIZE`para testar diferentes comportamentos de buffer.
 
-# English Version
-
-*This project has been created as part of the 42 curriculum by **pdiniz-l**.*
-
 #### Descrição da Biblioteca
 
 Este projeto implementa a seguinte função pública:
@@ -113,6 +109,10 @@ Páginas de manual:
 * man open
 
 * Documentação da biblioteca padrão C
+
+# English Version
+
+*This project has been created as part of the 42 curriculum by **pdiniz-l**.*
 
 ## get_next_line
 
