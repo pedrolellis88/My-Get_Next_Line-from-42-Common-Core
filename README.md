@@ -34,17 +34,17 @@ char *get_next_line(int fd);
 
 ### Behavior
 
-Reads from the given file descriptor and returns one line per call
+* Reads from the given file descriptor and returns one line per call
 
-Returns the line including `\n` if a newline is present
+* Returns the line including `\n` if a newline is present
 
-Returns the last line without `\n` if EOF is reached without a trailing newline
+* Returns the last line without `\n` if EOF is reached without a trailing newline
 
-Returns NULL on error or when there are no more lines to read
+* Returns NULL on error or when there are no more lines to read
 
-Preserves unread data between calls using an internal static variable
+* Preserves unread data between calls using an internal static variable
 
-The caller is responsible for freeing the returned string
+* The caller is responsible for freeing the returned string
 
 ### File Structure
 
@@ -87,30 +87,30 @@ The implementation relies on internal static helpers to manage state and memory:
 
 Returns `NULL` if:
 
-`fd < 0`
+* `fd < 0`
 
-`BUFFER_SIZE <= 0`
+ *`BUFFER_SIZE <= 0`
 
-read fails
+* read fails
 
 * Memory allocation fails
 
-All allocated memory is properly freed on failure
+* All allocated memory is properly freed on failure
 
-No memory leaks are introduced
+* No memory leaks are introduced
 
 ## Resources
 
-42 School — Get Next Line v13 subject
+* 42 School — Get Next Line v13 subject
 
 POSIX documentation:
 
-read(2)
+* read(2)
 
 Manual pages:
 
-man read
+* man read
 
-man open
+* man open
 
-C standard library documentation
+* C standard library documentation
