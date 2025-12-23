@@ -1,4 +1,4 @@
-Este projeto foi criado como parte do currículo da 42 por **pdiniz-l**.
+Este projeto foi criado por **Pedro Henrique Dinis Lellis**
 
 ## get_next_line
 ### Descrição
